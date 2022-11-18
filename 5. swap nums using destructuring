@@ -1,0 +1,22 @@
+Jaavascript program to swap two numbers using a new es6 feature, called destructuring:
+--------------------------------------------------------------------------------------
+
+
+
+
+var swap= function(a,b){
+  console.log(`Before swap a is ${a} and b is ${b}`);
+  [a,b]=[b,a];
+  console.log(`After swap a is ${a} and b is ${b}`);
+}
+swap(2,8);
+
+
+
+
+--------
+Output:
+
+"Before swap a is 2 and b is 8"
+"After swap a is 8 and b is 2"
+--------

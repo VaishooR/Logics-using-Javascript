@@ -1,0 +1,19 @@
+JavaScript Program to Add Two Numbers:
+--------------------------------------
+
+
+
+var sum=function(a,b){
+  return a+b;
+}
+console.log(sum(5,6));
+console.log(sum(8,5));
+
+
+
+
+-------
+Output:
+11
+13
+-------

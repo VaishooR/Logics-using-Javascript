@@ -1,0 +1,25 @@
+JavaScript Program to Find the Square Root:
+-------------------------------------------
+
+
+
+
+var rootsquare=function(num){
+  return Math.sqrt(num)
+}
+console.log(rootsquare(64));
+console.log(rootsquare(25));
+console.log(rootsquare(81));
+console.log(rootsquare(4));
+
+
+
+
+
+---------
+Output:
+8
+5
+9
+2
+---------

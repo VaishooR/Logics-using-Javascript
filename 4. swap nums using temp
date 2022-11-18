@@ -1,0 +1,25 @@
+JavaScript Program to Swap Two Variables Using a Temporary Variable:
+--------------------------------------------------------------------
+
+
+
+
+var swap=function(a,b){
+  console.log(`Value of a and b before swap is ${a} and ${b}.`);
+  var temp;
+  temp=a;
+  a=b;
+  b=temp;
+  console.log(`Value of a and b after swap is ${a} and ${b}.`);
+}
+swap(1,2);
+
+
+
+
+
+--------
+Output:
+"Value of a and b before swap is 1 and 2."
+"Value of a and b after swap is 2 and 1."
+--------
